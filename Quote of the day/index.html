@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote of The Day</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,20 +16,20 @@
 
     <div class="container">
         <div class="quote_box">
-            <div class="socilal_link">
-                <button>x</button>
-                <button>telegram</button>
-                <button>intagram</button>
+            <h3>Quote of the day</h3>
+
+            <h4 class="quote-holder">
+                <i class="fa-solid fa-quote-left"></i>
+                <span id="quote-holder">Quote</span>
+                <i class="fa-solid fa-quote-right"></i>
+
+            </h4>
+
+            <p class="author_name">Author Name</p>
+
+            <div class="buttons">
+                <button id="generate_quote">Get a new quote</button>
             </div>
-            <h2>Quote of the DAY !</h2>
-
-            <h3 id="quote-holder"> </h3>
-
-            <p class="author_name"> Author</p>
-        </div>
-        <div class="buttons">
-            <button id="generate_quote">Generate another quote</button>
-
 
         </div>
 
